@@ -1,4 +1,4 @@
-import photo from './Dima_photo.png';
+import photo from './photo_blue.jpg';
 function Header() {
     return (
         <header className='text-white items-center font-montserrat justify-center flex'>
