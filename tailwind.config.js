@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'bg-global': '#003',
         'primary': '#676cdb',
+        'text-second': '#9999cc',
       },
     },
   },
