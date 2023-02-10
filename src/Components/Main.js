@@ -5,7 +5,14 @@ import { FaBootstrap } from 'react-icons/fa';
 import { SiTailwindcss } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di'
 import { DiNodejsSmall } from 'react-icons/di'
+import { SiAdobephotoshop } from 'react-icons/si'
+import { SiPostgresql } from 'react-icons/si'
+import { FiFigma } from 'react-icons/fi'
+import { SiAdobeaftereffects } from 'react-icons/si'
+import { DiVisualstudio } from 'react-icons/di'
+import { SiPostman } from 'react-icons/si'
 import photo from "./photo_blue.jpg";
+
 function Main() {
     return (
         <div className="container mx-auto px-4 text-white mt-10 mb-10">
@@ -114,6 +121,122 @@ function Main() {
                 </div>
             </div>
             <p className='text-3xl my-20'>Дополнительные навыки</p>
+
+            <div className="flex">
+                <div className="flex flex-wrap -mx-6">
+                    <div className="w-full w-1/3 px-6 py-4">
+                        <div className="bg-white rounded-lg backgroundCard shadow-md p-6" style={{height: 250}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <SiAdobephotoshop className="text-black mb-4" style={{ fontSize: 35 }} />
+                                <p className='mb-4 mx-4 text-white '>Adobe Photoshop</p>
+                            </div>
+                            <p className="text-black mb-4">
+                                Как среднестатистический пользователь Photoshop, я имею некоторый опыт работы с программой и знаете, как применять базовые функции, такие как коррекция цвета, изменение размера изображения, добавление текста и т.д.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="w-full w-1/3 px-6 py-4">
+                        <div className="bg-white rounded-lg backgroundCard shadow-md p-6" style={{height: 250}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <FiFigma className="text-black mb-4" style={{ fontSize: 35 }} />
+                                <p className='mb-4 mx-4 text-white'>Figma</p>
+                            </div>
+                            <p className="text-black mb-4">
+                                У меня есть некоторый опыт работы с программой с Figma и знаю, как создавать простые макеты, использовать базовые элементы интерфейса и компоновать элементы в единый дизайн.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="w-full w-1/3 px-6 py-4">
+                        <div className="bg-white rounded-lg backgroundCard shadow-md p-6" style={{height: 250}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <SiAdobeaftereffects className="text-black mb-4" style={{ fontSize: 35 }} />
+                                <p className='mb-4 mx-4 text-white'>Adobe After effects</p>
+                            </div>
+                            <p className="text-black mb-4">
+                                Я имею некоторый опыт работы с программой с Figma и знаю, как создавать простые макеты, использовать базовые элементы интерфейса и компоновать элементы в единый дизайн.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex">
+                <div className="flex flex-wrap -mx-6">
+                    <div className="w-full w-1/3 px-6 py-4">
+                        <div className="bg-white rounded-lg backgroundCard shadow-md p-6" style={{height: 250}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <SiPostgresql className="text-black mb-4" style={{ fontSize: 35 }} />
+                                <p className='mb-4 mx-4 text-white '>PostgresSQL</p>
+                            </div>
+                            <p className="text-black mb-4">
+                                Я имею базовые знания и навыки работы с этой открытой и широко используемой системой управления базами данных.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="w-full w-1/3 px-6 py-4">
+                        <div className="bg-white rounded-lg backgroundCard shadow-md p-6" style={{height: 250}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <DiVisualstudio className="text-black mb-4" style={{ fontSize: 35 }} />
+                                <p className='mb-4 mx-4 text-white'>Visual Studio</p>
+                            </div>
+                            <p className="text-black mb-4">
+                                Ловко разбираюсь в интерфейсе данной IDE, эффективно использую многие возможности среды разработки, которые ускоряют решение рутинных задач.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="w-full w-1/3 px-6 py-4">
+                        <div className="bg-white rounded-lg backgroundCard shadow-md p-6" style={{height: 250}}>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <SiPostman className="text-black mb-4" style={{ fontSize: 35 }} />
+                                <p className='mb-4 mx-4 text-white'>Postman</p>
+                            </div>
+                            <p className="text-black mb-4">
+                                Неоднократно в ходе выполнения учебных проектов использовал эту утилиту для проверки правильности работы back-end составляющей сайта.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p className='text-3xl my-20'>Связаться со мной</p>
+            <div className='mx-auto w-1/2'>
+                <form className='text-center'>
+                    <div className="grid gap-6 mb-6 md:grid-cols-2">
+                        <div>
+                            <input type="text" id="first_name"
+                                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                   placeholder="Имя"/>
+                        </div>
+                        <div>
+
+                            <input type="text" id="last_name"
+                                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                   placeholder="Фамилия" />
+                        </div>
+                        <div>
+                            <input type="text" id="company"
+                                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                   placeholder="Компания" />
+                        </div>
+                        <div>
+                            <input type="tel" id="phone"
+                                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                                   placeholder="Телефон" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" />
+                        </div>
+                    </div>
+                    <div className="mb-6">
+                        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
+                        <input type="email" id="email"
+                               className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                               placeholder="gololenkova.top@company.com"/>
+                    </div>
+
+                    <button type="submit"
+                            className="text-white bg-primary hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Отправить
+                    </button>
+                </form>
+            </div>
         </div>
     );
 }
