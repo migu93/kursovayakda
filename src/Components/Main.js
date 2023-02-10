@@ -53,23 +53,23 @@ function Main() {
                 <div className={'flex'} style={{textAlign: 'center'}}>
                     <div className={'w-1/5 lift-block'}>
                         <DiReact size={152} className='text-primary' style={{display: 'inline-block'}}/>
-                        <p className='text-3xl'>React</p>
+                        <p className='text-3xl text-primary'>React</p>
                     </div>
                     <div className={'w-1/5 lift-block'}>
                         <FaBootstrap size={152} className='text-primary' style={{display: 'inline-block'}}/>
-                        <p className='text-3xl'>Bootstrap 5</p>
+                        <p className='text-3xl text-primary'>Bootstrap 5</p>
                     </div>
                     <div className={'w-1/5 lift-block'}>
                         <SiTailwindcss size={152} className='text-primary' style={{display: 'inline-block'}}/>
-                        <p className='text-3xl'>Tailwind</p>
+                        <p className='text-3xl text-primary'>Tailwind</p>
                     </div>
                     <div className={'w-1/5 lift-block'}>
                         <DiJavascript1 size={152} className='text-primary' style={{display: 'inline-block'}}/>
-                        <p className='text-3xl'>JavaScript</p>
+                        <p className='text-3xl text-primary'>JavaScript</p>
                     </div>
                     <div className={'w-1/5 lift-block'}>
                         <DiNodejsSmall size={152} className='text-primary' style={{display: 'inline-block'}}/>
-                        <p className='text-3xl'>Node JS</p>
+                        <p className='text-3xl text-primary'>Node JS</p>
                     </div>
                 </div>
             </div>
@@ -113,6 +113,7 @@ function Main() {
                     <p>"Мой опыт" - это раздел, который показывает мою компетенцию в определенных областях разработки. Я имеете средний уровень знаний в UX/UI дизайне (50%) и backend на PHP (50%). Вы имеете хорошие навыки в разработке приложений WPF (60%) и CSS/SCSS (80%).</p>
                 </div>
             </div>
+            <p className='text-3xl my-20'>Дополнительные навыки</p>
         </div>
     );
 }
